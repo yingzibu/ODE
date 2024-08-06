@@ -13,6 +13,3 @@ Also mimic first order PO
 
 ![](first_order_PO.gif)
 
-![](https://github.com/yingzibu/ODE/blob/main/code/first_order_PO.gif)
-
-Why nothing?
