@@ -9,7 +9,7 @@ Also mimic first order PO
 
 [math derivation of ODE, first order PO](https://github.com/yingzibu/ODE/blob/main/note/first%20order%20PO%2C%20ODE.pdf)
 
-[Code for first order PO using neural ODE](https://github.com/yingzibu/ODE/blob/main/code/neural_ODE_first_order_PO.ipynb)
+[Code for first order PO using neural ODE](https://github.com/yingzibu/ODE/blob/main/code/neural_ODE_first_order_PO_with_M_approx.ipynb)
 
 ![](first_order_PO.gif)
 
