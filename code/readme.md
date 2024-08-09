@@ -22,6 +22,6 @@
 
 ![](true_vs_estimate_M.png)
 
-![](two_compartment.gif)
+![](2_com_2nd_run.gif)
 
-![](gif_M_estimate.gif)
+![](gif_M_estimate_2nd_run.gif)
