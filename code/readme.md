@@ -19,3 +19,7 @@
 ### Two compartment model
 
 [Code for two compartment using neural ODE](https://github.com/yingzibu/ODE/blob/main/code/neural_ODE_first_order_PO_two_compartment.ipynb)
+
+![](two_compartment.gif)
+
+![](gif_M_estimate.gif)
