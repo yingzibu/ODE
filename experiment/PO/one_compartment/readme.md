@@ -6,6 +6,8 @@ I will test step by step
 
 [Code](https://github.com/yingzibu/ODE/blob/main/experiment/PO/one_compartment/use_Aa_loss_Ac_only.ipynb)
 
+![](Aa_yet_loss_Ac_only.png)
+
 ![](train_Ac_only.gif)
 
 ![](M_estimate_loss_Ac_only.gif)
