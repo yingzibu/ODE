@@ -11,3 +11,9 @@ I will test step by step
 ![](train_Ac_only.gif)
 
 ![](M_estimate_loss_Ac_only.gif)
+
+### Step 2: We do not have Aa data. Missing data, ill-defined. Cannot put missing-value vector as input into NN. Find an alternative way
+
+#### Alternative 1: same model, yet dim = 1 (only cares about Ac)
+
+#### Alternative 2: model that could handle missing values: generative latent function time-series model
