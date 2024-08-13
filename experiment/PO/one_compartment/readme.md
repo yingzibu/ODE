@@ -14,6 +14,8 @@ I will test step by step
 
 ### Step 2: We do not have Aa data. Missing data, ill-defined. Cannot put missing-value vector as input into NN. Find an alternative way
 
+What does not work is placing missing values for Aa, yet the whole column is missing except the first value (IC: Dose). This will lead to biased model thus does not work
+
 #### Alternative 1: same model, yet dim = 1 (only cares about Ac)
 
 #### Alternative 2: model that could handle missing values: generative latent function time-series model
