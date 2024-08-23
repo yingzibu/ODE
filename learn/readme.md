@@ -1,4 +1,4 @@
-# Learning NONMEM
+## Optional goal: Learning NONMEM
 
 If learning NONMEM is time-consuming, alternative way is 
 
