@@ -8,6 +8,8 @@ If learning NONMEM is time-consuming, alternative way is
   
 3. learning Adept 5 [link](https://customsitesmedia.usc.edu/wp-content/uploads/sites/106/2013/02/17062320/ADAPT5-User-Guide.pdf)
 
+4. Nlmixr Fidler et al., 2019 [link](https://github.com/nlmixrdevelopment/nlmixr)
+
 
 ## Another package of neural ODE
 
