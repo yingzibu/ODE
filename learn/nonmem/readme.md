@@ -8,14 +8,19 @@
 
 #### Current calculation is done by
 
-1. Calculate pop parameters, once optimized, it could be fixed / trainable
+1. Calculate pop parameters $\text{param}_{\text{pop}}$, once optimized, it could be fixed / trainable
 2. initiate the $\eta \sim \mathcal{N}(0, \omega)$, and each patient's param has its unique $\eta$
-    i.e. for dataset with patient num $= n$, random initiation $$\mathbf{\eta} \sim \mathcal{N}(0, \mathbf{\omega}),  \mathbf{\eta}\in \mathbb{R}^n, $$
-3. then train the model to minimize NLLLoss, once trained the whole dataset, update $\mathbf{\omega} = \text{var} (\mathbf{\eta})$,
-   train multiple epochs until the loss does not drop, stop train.
+    i.e. for dataset with patient num $= n$, random initiation $$\mathbf{\eta} \sim \mathcal{N}(0, \mathbf{\omega}),  \mathbf{\eta}\in \mathbb{R}^n, $$, and patients' specific params will be
+
+   $`\text{param}_{\text{patient}} =\text{param}_{\text{pop}} \exp(\mathbf{\eta})`$, patients' specific conc. vs t calculation will be $`conc. = f(\text{param}_{\text{patient}}) + \text{err} = F(\text{param}_{\text{pop}}, \exp(\mathbf{\eta})) + \text{err}, \text{err} \sim \mathcal{N}(0, \sigma^2)`$
+4. then train the model to minimize NLLLoss, once trained the whole dataset, update $\mathbf{\omega} = \text{var} (\mathbf{\eta})$, 
+   train multiple epochs. Update optimized $\mathbf{\eta}$ and $\sigma$
+
+   until the loss does not drop, stop train.
+   
   * Problem 1: mean of $\mathbf{\eta}$ may not be $\mathbf{0}$.
   * Problem 2: is this method the same as the NONMEM?  
-4.  Best model with the lowest loss is saved and reload to obtain the calculated $\mathbf{omega}$
+4.  Best model with the lowest loss is saved and reload to obtain the calculated $\mathbf{\omega}$
 5.  90% CI was calculated based on 1000 simulations on $\eta \sim \mathcal{N}(0, \omega)$
 
 
