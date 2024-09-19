@@ -17,3 +17,11 @@
   * Problem 2: is this method the same as the NONMEM?  
 4.  Best model with the lowest loss is saved and reload to obtain the calculated $\mathbf{omega}$
 5.  90% CI was calculated based on 1000 simulations on $\eta \sim \mathcal{N}(0, \omega)$
+
+
+ | gradient descent |  fixed pop params   | trainable pop params 
+:-----:|:-------------------------:|:-------------------------:
+|overall comparison| ![](fig/nn_no_train_pop.png)  | ![](fig/nn_train_pop.png) 
+| prediction | ![](fig/nn_no_train_pop_pred.png) | ![](fig/nn_train_pop_pred.png) 
+
+
