@@ -1,9 +1,8 @@
 ## Further modification needed:
 
 
-1. NLLLoss could be normalized based on patient, instead of entries (multiple time points)
 
-2. Currently 90% Confidence interval is calculated based on 1000 simulations. How do the popPK do CI calculation and how to reject/accept BE?
+* Currently 90% Confidence interval is calculated based on 1000 simulations. How do the popPK do CI calculation and how to reject/accept BE?
 
 
 #### Current calculation is done by
