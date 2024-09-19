@@ -20,7 +20,7 @@
    
   * Problem 1: mean of $\mathbf{\eta}$ may not be $\mathbf{0}$.
   * Problem 2: is this method the same as the NONMEM?  
-4.  Best model with the lowest loss is saved and reload to obtain the cpredicted pop parameters, $\omega$s and $\sigma$, compare those with true values
+4.  Best model with the lowest loss is saved and reload to obtain the predicted pop parameters, $\omega$ and $\sigma$, compare those with true values
 5.  90% CI was calculated based on 1000 simulations on $\eta \sim \mathcal{N}(0, \omega)$
 
 
