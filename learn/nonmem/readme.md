@@ -8,7 +8,7 @@
 
 #### Current calculation is done by
 
-1. Calculate pop parameters, once optimied, it could be fixed / trainable
+1. Calculate pop parameters, once optimized, it could be fixed / trainable
 2. initiate the $\eta \sim \mathcal{N}(0, \omega)$, and each patient's param has its unique $\eta$
     i.e. for dataset with patient num $= n$, random initiation $$\mathbf{\eta} \sim \mathcal{N}(0, \mathbf{\omega}),  \mathbf{\eta}\in \mathbb{R}^n, $$
 3. then train the model to minimize NLLLoss, once trained the whole dataset, update $\mathbf{\omega} = \text{var} (\mathbf{\eta})$,
