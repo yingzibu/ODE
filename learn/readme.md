@@ -14,3 +14,18 @@ If learning NONMEM is time-consuming, alternative way is
 ## Another package of neural ODE
 
 [link](https://docs.sciml.ai/DiffEqFlux/stable/)
+
+
+## Learn SDE
+
+[book 1](http://www.stat.ucla.edu/~ywu/research/documents/StochasticDifferentialEquations.pdf)
+
+[book 2](https://users.aalto.fi/~asolin/sde-book/sde-book.pdf)
+
+papers:
+
+[Elucidating the Design Space of Diffusion-Based Generative Model](https://arxiv.org/pdf/2206.00364)
+
+[SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS](https://arxiv.org/pdf/2011.13456)
+
+[Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise](https://arxiv.org/pdf/1906.02355)
