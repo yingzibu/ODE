@@ -32,4 +32,4 @@ papers:
 
 [The Rise of Diffusion Models in Time-Series Forecasting](https://arxiv.org/pdf/2401.03006)
 
-[https://arxiv.org/pdf/2404.18886](https://arxiv.org/pdf/2404.18886)
+[A Survey on Diffusion Models for Time Series and Spatio-Temporal Data](https://arxiv.org/pdf/2404.18886)
