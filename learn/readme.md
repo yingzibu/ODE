@@ -29,3 +29,7 @@ papers:
 [SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS](https://arxiv.org/pdf/2011.13456)
 
 [Neural SDE: Stabilizing Neural ODE Networks with Stochastic Noise](https://arxiv.org/pdf/1906.02355)
+
+[The Rise of Diffusion Models in Time-Series Forecasting](https://arxiv.org/pdf/2401.03006)
+
+[https://arxiv.org/pdf/2404.18886](https://arxiv.org/pdf/2404.18886)
